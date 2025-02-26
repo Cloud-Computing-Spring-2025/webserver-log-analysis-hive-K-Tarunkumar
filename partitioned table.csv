@@ -1,0 +1,11 @@
+web_server_logs_partitioned.ip,web_server_logs_partitioned.timestamp_data,web_server_logs_partitioned.url,web_server_logs_partitioned.user_agent,web_server_logs_partitioned.status
+192.168.1.1,2/1/2024 10:15,/home,Mozilla/5.0,200
+192.168.1.2,2/1/2024 10:16,/products,Chrome/90.0,200
+192.168.1.1,2024-02-01 10:35:25,/about,Opera/74.0,200
+192.168.1.25,2024-02-01 10:35:09,/products,Chrome/90.0,200
+192.168.1.20,2024-02-01 10:43:49,/contact,Opera/74.0,200
+192.168.1.30,2024-02-01 10:19:26,/home,Mozilla/5.0,200
+192.168.1.10,2024-02-01 10:27:19,/products,Edge/88.0,200
+192.168.1.20,2024-02-01 10:38:10,/contact,Edge/88.0,200
+192.168.1.2,2024-02-01 10:16:12,/home,Chrome/90.0,200
+192.168.1.30,2024-02-01 10:35:22,/home,Opera/74.0,200
