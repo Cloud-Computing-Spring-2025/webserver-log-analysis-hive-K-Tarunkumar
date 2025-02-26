@@ -93,9 +93,7 @@ ORDER BY minute_time;
 
 ### Optimizing with Partitioning
 ### 1. Create Partitioned Table
-sql
-Copy
-Edit
+
 CREATE TABLE web_server_logs_partitioned (
   ip STRING,
   timestamp1 STRING,
@@ -107,9 +105,7 @@ ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 LOCATION '/input/web_server_logs';
 ### 2. Load Data into Partitioned Table
-sql
-Copy
-Edit
+
 MSCK REPAIR TABLE web_server_logs_partitioned;
 
 
